@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MTSP</string>
+    <string name="Google_maps_api_key">YOUR_API_KEY</string>
+</resources>

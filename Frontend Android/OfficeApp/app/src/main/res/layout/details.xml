@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:id="@+id/attendancerecycler"
+    android:background="@drawable/background"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f2eded"
+        android:textSize="20sp"
+        android:id="@+id/labourname"
+        android:layout_margin="3dp"
+        android:text="Labour : BLA BLA BLA"/>
+    <TextView
+        android:layout_below="@+id/labourname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f2eeee"
+        android:textSize="20sp"
+        android:id="@+id/routename"
+        android:layout_margin="3dp"
+        android:text="Route: BLA BLA BLA"/>
+
+</RelativeLayout>
